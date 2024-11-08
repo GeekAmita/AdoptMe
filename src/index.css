@@ -10,12 +10,12 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.search-params {
+.search_params {
   width: 1100px;
   margin: 0 auto;
 }
 
-.search-params form {
+.search_params form {
   border-radius: 6px;
   background: #faeff0;
   box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
@@ -68,7 +68,7 @@ body {
   justify-content: space-around;
 }
 
-.image-container {
+.image_container {
   clip-path: circle(50% at 50% 50%);
   width: 100px;
   height: 100px;
@@ -155,11 +155,11 @@ header {
   max-height: 400px;
 }
 
-.carousel-smaller {
+.carousel_smaller {
   width: 50%;
 }
 
-.carousel-smaller > img {
+.carousel_smaller > img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -169,25 +169,25 @@ header {
   border: 2px solid #333;
 }
 
-.carousel-smaller > img.active {
+.carousel_smaller > img.active {
   border-color: #333;
   opacity: 0.6;
 }
 
-.search-params label {
+.search_params label {
   display: block;
   width: 60px;
 }
 
-.search-params input,
-.search-params select {
+.search_params input,
+.search_params select {
   margin-bottom: 30px;
   font-size: 18px;
   height: 30px;
   width: 325px;
 }
 
-.search-params button,
+.search_params button,
 #modal button,
 #modal a,
 .details button {
@@ -208,15 +208,15 @@ header {
   text-decoration: none;
 }
 
-.search-params button:hover {
+.search_params button:hover {
   background-color: #122622;
 }
 
-.search-params button:active {
+.search_params button:active {
   background-color: #5f1d22;
 }
 
-.search-params button:focus {
+.search_params button:focus {
   border: 1px solid cornflowerblue;
 }
 
@@ -261,11 +261,11 @@ header {
     padding: 20px 0px 0px 0px;
   }
 
-  .search-params {
+  .search_params {
     width: 95%;
   }
 
-  .search-params form {
+  .search_params form {
     margin-bottom: 20px;
   }
 
@@ -305,7 +305,7 @@ header {
 }
 
 @media only screen and (max-width: 945px) {
-  .search-params {
+  .search_params {
     width: 95%;
   }
 
@@ -324,17 +324,17 @@ header {
     text-align: center;
   }
 
-  .image-container {
+  .image_container {
     margin: 0 auto;
     float: none;
   }
-  .carousel-smaller > img {
+  .carousel_smaller > img {
     width: 60px;
     height: 60px;
   }
 }
 
-.loading-pane {
+.loading_pane {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -357,7 +357,7 @@ form .pet {
   }
 }
 
-.mini.loading-pane {
+.mini.loading_pane {
   height: 34px;
 }
 
